@@ -23,7 +23,7 @@ var arrayOfObjects = [
     ];
 
 //sort arrayOfObjects by longest name
-function sortLongest (a, b, parameter) {
+function sortLongest (a, b) {
     if (a.name.length < b.name.length) {
         return -1;
     } 
