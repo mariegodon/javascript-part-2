@@ -1,7 +1,7 @@
 function Warrior(name, gender) {
     this.name = name;
     this.gender = gender;
-    this.power = (Math.floor(Math.random() * 99)) + 1;
+    this.power = (Math.floor(Math.random() * 100)) + 1;
     this.level = 1;
     this.weapon = "wooden sword"
 }
